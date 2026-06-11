@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layanan Konseling - FILKOM Apps</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="logo-section">
+                <div class="logo-f">F</div>
+                <div class="logo-meta">
+                    <h2>FILKOM Apps</h2>
+                    <p>Portal Mahasiswa UB</p>
+                </div>
+            </div>
+            <div class="user-miniprofile">
+                <div class="avatar-circle">BL</div>
+                <div class="user-mini-info">
+                    <h3>Bahlil Lahadalia</h3>
+                    <p>255150700111001</p>
+                    <span class="tag-dept">Teknik Informatika</span>
+                </div>
+            </div>
+            <nav class="menu-nav">
+                <span class="menu-group-title">MENU UTAMA</span>
+                <a href="dashboard.html" class="menu-item"><i class="fa-solid fa-gauge"></i> Dashboard</a>
+                <a href="404.html" class="menu-item"><i class="fa-solid fa-graduation-cap"></i> Akademik</a>
+                <a href="404.html" class="menu-item"><i class="fa-solid fa-flask"></i> Penelitian</a>
+                <a href="404.html" class="menu-item"><i class="fa-solid fa-building"></i> Fasilitas</a>
+                <a href="konseling.html" class="menu-item active"><i class="fa-solid fa-comments"></i> Konseling</a>
+                <a href="profil.html" class="menu-item"><i class="fa-solid fa-user"></i> Profil</a>
+                <span class="menu-group-title">LAINNYA</span>
+                <a href="404.html" class="menu-item"><i class="fa-solid fa-bell"></i> Pengumuman <span class="badge">3</span></a>
+            </nav>
+            <a href="404.html" class="btn-logout"><i class="fa-solid fa-arrow-right-from-bracket"></i> Keluar</a>
+        </aside>
+
+        <main class="main-content">
+            <header class="topbar">
+                <div class="breadcrumbs">BERANDA / KONSELING <span class="active-page">Layanan Konseling</span></div>
+                <div class="topbar-right">
+                    <div class="search-box"><i class="fa-solid fa-magnifying-glass"></i><input type="text" placeholder="Cari layanan..."></div>
+                    <div class="notif-bell"><i class="fa-solid fa-bell"></i><span class="bell-badge">2</span></div>
+                    <div class="profile-top-initial">BL</div>
+                </div>
+            </header>
+
+            <div id="page-wrapper">
+                <div class="welcome-banner" style="background: linear-gradient(135deg, #1e293b, #334155); display: flex; justify-content: space-between; align-items: center; padding: 40px 32px;">
+                    <div class="welcome-text">
+                        <p style="text-transform: uppercase; letter-spacing: 1px; color: #f97316; font-weight: 700; font-size: 11px;">Layanan Kesejahteraan Mahasiswa</p>
+                        <h1 style="font-size: 32px; font-weight: 700; margin: 8px 0;">Bimbingan & Konseling</h1>
+                        <p style="font-size: 14px; opacity: 0.8; margin-bottom: 0;">Kami hadir untuk mendukung kesehatan mental, sosial, dan kesuksesan akademik Anda.</p>
+                    </div>
+                    <div class="stats-counter-wrapper" style="display: flex; gap: 16px;">
+                        <div style="background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.15); padding: 16px 24px; border-radius: 16px; text-align: center; min-width: 110px;">
+                            <small style="font-size: 10px; display: block; opacity: 0.7; font-weight: 600; margin-bottom: 4px; letter-spacing: 0.5px;">TOTAL SESI</small>
+                            <b style="font-size: 28px; font-weight: 700;">5</b>
+                        </div>
+                        <div style="background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.15); padding: 16px 24px; border-radius: 16px; text-align: center; min-width: 110px;">
+                            <small style="font-size: 10px; display: block; opacity: 0.7; font-weight: 600; margin-bottom: 4px; letter-spacing: 0.5px;">SESI AKTIF</small>
+                            <b style="font-size: 28px; font-weight: 700; color: #f97316;">1</b>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="two-col-layout">
+                    <div class="inner-col">
+                        <div class="card">
+                            <div class="card-header" style="border-bottom: 1px solid #f1f5f9; padding-bottom: 16px; margin-bottom: 24px;">
+                                <h3><i class="fa-solid fa-calendar-plus" style="color: #2563eb;"></i> Form Booking Konseling</h3>
+                                <span style="font-size: 12px; color: #64748b; font-weight: 500;">Isi detail pengajuan bimbingan</span>
+                            </div>
+                            
+                            <div class="form-field">
+                                <label>JENIS KONSELING</label>
+                                <div class="tile-selector-group" style="grid-template-columns: repeat(2, 1fr); gap: 14px; margin-top: 6px;">
+                                    <div class="selector-tile active">
+                                        <div style="display: flex; flex-direction: column; gap: 2px;">
+                                            <span style="font-weight: 700;">Akademik</span>
+                                            <small style="font-size: 11px; font-weight: 400; opacity: 0.8;">Masalah perkuliahan & nilai</small>
+                                        </div>
+                                    </div>
+                                    <div class="selector-tile">
+                                        <div style="display: flex; flex-direction: column; gap: 2px;">
+                                            <span style="font-weight: 700;">Personal / Sosial</span>
+                                            <small style="font-size: 11px; font-weight: 400; color: #64748b;">Masalah adaptasi & keluarga</small>
+                                        </div>
+                                    </div>
+                                    <div class="selector-tile">
+                                        <div style="display: flex; flex-direction: column; gap: 2px;">
+                                            <span style="font-weight: 700;">Karir & Masa Depan</span>
+                                            <small style="font-size: 11px; font-weight: 400; color: #64748b;">Persiapan kerja & magang</small>
+                                        </div>
+                                    </div>
+                                    <div class="selector-tile">
+                                        <div style="display: flex; flex-direction: column; gap: 2px;">
+                                            <span style="font-weight: 700;">Kesehatan Mental</span>
+                                            <small style="font-size: 11px; font-weight: 400; color: #64748b;">Stres, kecemasan, & burnout</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-field" style="margin-top: 20px; position: relative;">
+                                <label>TOPIK UTAMA / KELUHAN KONSELING</label>
+                                <div style="position: relative; margin-top: 6px;">
+                                    <i class="fa-solid fa-pen-to-square" style="position: absolute; left: 14px; top: 14px; color: #94a3b8;"></i>
+                                    <input type="text" style="width: 100%; padding: 12px 14px 12px 42px; border: 1px solid #cbd5e1; border-radius: 12px; font-size: 13px;" value="Kesulitan dalam manajemen waktu dan pengelolaan tugas akademik kelompok.">
+                                </div>
+                            </div>
+
+                            <div style="text-align: right; margin-top: 24px; border-top: 1px solid #f1f5f9; padding-top: 20px;">
+                                <button class="btn-orange" style="padding: 12px 32px;"><i class="fa-solid fa-paper-plane" style="margin-right: 6px;"></i> Ajukan Janji Temu</button>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <h3><i class="fa-solid fa-clock-rotate-left" style="color: #475569;"></i> Riwayat Bimbingan Konseling</h3>
+                                <button class="btn-text">Filter Status</button>
+                            </div>
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 60px;">NO</th>
+                                        <th>TANGGAL SESI</th>
+                                        <th>KONSELOR</th>
+                                        <th>TOPIK / JENIS</th>
+                                        <th style="text-align: center;">STATUS</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td style="font-weight: 600;">15 Juni 2026</td>
+                                        <td>Dr. Rina Wahyuni, M.Psi</td>
+                                        <td><span style="font-weight: 600; display: block;">Manajemen Waktu</span><small style="color: #64748b;">Akademik</small></td>
+                                        <td style="text-align: center;"><span class="status-badge sb-orange" style="display: inline-block;">Dijadwalkan</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td style="font-weight: 600;">28 April 2026</td>
+                                        <td>Ahmad Fauzan, M.Psi</td>
+                                        <td><span style="font-weight: 600; display: block;">Persiapan Magang Bangkit</span><small style="color: #64748b;">Karir</small></td>
+                                        <td style="text-align: center;"><span class="status-badge sb-green" style="display: inline-block;">Selesai</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="inner-col">
+                        <div class="card">
+                            <div class="card-header" style="margin-bottom: 16px;">
+                                <h3><i class="fa-solid fa-user-doctor" style="color: #ea580c;"></i> Konselor Tersedia</h3>
+                                <span class="status-badge sb-green" style="font-size: 10px; padding: 2px 8px;">● Live</span>
+                            </div>
+                            <p style="font-size: 12px; color: #64748b; margin-top: -10px; margin-bottom: 20px;">Pilih psikolog atau ahli karir aktif yang ingin Anda hubungi:</p>
+                            
+                            <div class="counselor-list-card" style="border-left: 4px solid #f97316; display: flex; justify-content: space-between; align-items: center; background: #ffffff; padding: 16px; margin-bottom: 14px; box-shadow: 0 1px 2px rgba(0,0,0,0.02);">
+                                <div style="display: flex; align-items: center; gap: 14px;">
+                                    <div class="counselor-avatar-circle" style="background-color: #ffedd5; color: #ea580c; font-weight: 700; width: 44px; height: 44px;">RW</div>
+                                    <div>
+                                        <h4 style="font-size: 14px; font-weight: 700; color: #1e293b;">Dr. Rina Wahyuni, M.Psi</h4>
+                                        <p style="font-size: 11px; color: #64748b; margin-top: 2px;"><i class="fa-solid fa-award" style="color: #eab308; margin-right: 4px;"></i> Psikolog Klinis • FILKOM</p>
+                                    </div>
+                                </div>
+                                <button class="btn-text" style="background: #eff6ff; padding: 6px 14px; border-radius: 8px; font-size: 12px;">Pilih</button>
+                            </div>
+
+                            <div class="counselor-list-card" style="border-left: 4px solid #cbd5e1; display: flex; justify-content: space-between; align-items: center; background: #ffffff; padding: 16px; margin-bottom: 14px; box-shadow: 0 1px 2px rgba(0,0,0,0.02);">
+                                <div style="display: flex; align-items: center; gap: 14px;">
+                                    <div class="counselor-avatar-circle" style="background-color: #f1f5f9; color: #475569; font-weight: 700; width: 44px; height: 44px;">AF</div>
+                                    <div>
+                                        <h4 style="font-size: 14px; font-weight: 700; color: #1e293b;">Ahmad Fauzan, M.Psi</h4>
+                                        <p style="font-size: 11px; color: #64748b; margin-top: 2px;"><i class="fa-solid fa-briefcase" style="color: #3b82f6; margin-right: 4px;"></i> Konselor Karir • UB</p>
+                                    </div>
+                                </div>
+                                <button class="btn-text" style="background: #f1f5f9; color: #475569; padding: 6px 14px; border-radius: 8px; font-size: 12px;">Pilih</button>
+                            </div>
+
+                            <div class="counselor-list-card" style="border-left: 4px solid #cbd5e1; display: flex; justify-content: space-between; align-items: center; background: #ffffff; padding: 16px; box-shadow: 0 1px 2px rgba(0,0,0,0.02);">
+                                <div style="display: flex; align-items: center; gap: 14px;">
+                                    <div class="counselor-avatar-circle" style="background-color: #f1f5f9; color: #475569; font-weight: 700; width: 44px; height: 44px;">SS</div>
+                                    <div>
+                                        <h4 style="font-size: 14px; font-weight: 700; color: #1e293b;">Siti Sundari, S.Psi</h4>
+                                        <p style="font-size: 11px; color: #64748b; margin-top: 2px;"><i class="fa-solid fa-heart" style="color: #ec4899; margin-right: 4px;"></i> Konselor Sosial • FILKOM</p>
+                                    </div>
+                                </div>
+                                <button class="btn-text" style="background: #f1f5f9; color: #475569; padding: 6px 14px; border-radius: 8px; font-size: 12px;">Pilih</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

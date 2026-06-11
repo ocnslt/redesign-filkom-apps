@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Mahasiswa - FILKOM Apps</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="logo-section">
+                <div class="logo-f">F</div>
+                <div><h2>FILKOM Apps</h2><p>Portal Mahasiswa UB</p></div>
+            </div>
+            <div class="user-miniprofile">
+                <div class="avatar-circle">BL</div>
+                <div class="user-mini-info">
+                    <h3>Bahlil Lahadalia</h3>
+                    <p>255150700111001</p>
+                    <span class="tag-dept">Teknik Informatika</span>
+                    <p class="sem-text">Semester 2</p>
+                </div>
+            </div>
+            <nav class="menu-nav">
+                <span class="menu-group-title">MENU UTAMA</span>
+                <a href="dashboard.html" class="menu-item"><i class="fa-solid fa-gauge"></i> Dashboard</a>
+                <a href="404.html" class="menu-item"><i class="fa-solid fa-graduation-cap"></i> Akademik</a>
+                <a href="404.html" class="menu-item"><i class="fa-solid fa-flask"></i> Penelitian</a>
+                <a href="404.html" class="menu-item"><i class="fa-solid fa-building"></i> Fasilitas</a>
+                <a href="konseling.html" class="menu-item"><i class="fa-solid fa-comments"></i> Konseling</a>
+                <a href="profil.html" class="menu-item active"><i class="fa-solid fa-user"></i> Profil</a>
+                <span class="menu-group-title">LAINNYA</span>
+                <a href="404.html" class="menu-item"><i class="fa-solid fa-bell"></i> Pengumuman <span class="badge">3</span></a>
+            </nav>
+            <a href="404.html" class="btn-logout"><i class="fa-solid fa-arrow-right-from-bracket"></i> Keluar</a>
+        </aside>
+
+        <main class="main-content">
+            <header class="topbar">
+                <div class="breadcrumbs">BERANDA / PROFIL / <span class="active">Profil Mahasiswa</span></div>
+                <div class="topbar-right">
+                    <div class="search-box"><i class="fa-solid fa-magnifying-glass"></i><input type="text" placeholder="Cari layanan..."></div>
+                    <div class="notif-bell"><i class="fa-solid fa-bell"></i><span class="bell-badge">2</span></div>
+                    <div class="profile-initial">BL</div>
+                </div>
+            </header>
+
+            <div id="page-wrapper">
+                <div class="profile-header-banner">
+                    <div class="big-avatar">BL</div>
+                    <div class="profile-header-meta">
+                        <h2>Bahlil Lahadalia</h2>
+                        <p>255150700111001 • Teknik Informatika</p>
+                        <p>Angkatan 2025 • Semester 2</p>
+                        <div class="tags-row">
+                            <span class="tag-status"><i class="fa-solid fa-circle"></i> Aktif</span>
+                            <span class="tag-location"><i class="fa-solid fa-location-dot"></i> Malang, Jawa Timur</span>
+                        </div>
+                    </div>
+                    <button class="btn-edit-profile"><i class="fa-solid fa-pen"></i> Edit Profil</button>
+                </div>
+
+                <div class="profile-grid">
+                    <div class="col-main-profile">
+                        <div class="card">
+                            <div class="card-header"><h3>👤 Data Pribadi</h3></div>
+                            <div class="form-grid">
+                                <div class="form-group"><label>NAMA LENGKAP</label><input type="text" value="Bahlil Lahadalia"></div>
+                                <div class="form-group"><label>EMAIL AKTIF</label><input type="email" value="bahlil.mbg@student.ub.ac.id"></div>
+                                <div class="form-group"><label>NIM</label><input type="text" value="255150700111001" disabled></div>
+                                <div class="form-group"><label>NO. TELEPON</label><input type="text" value="+62 812-3456-7890"></div>
+                                <div class="form-group"><label>TEMPAT LAHIR</label><input type="text" value="Malang"></div>
+                                <div class="form-group"><label>ALAMAT ASAL</label><input type="text" value="Jl. Soekarno-Hatta No. 12, Malang"></div>
+                                <div class="form-group"><label>TANGGAL LAHIR</label><input type="text" value="17 Agustus 2006"></div>
+                                <div class="form-group"><label>NOMOR KTP</label><input type="text" value="3573012203020001"></div>
+                                <div class="form-group"><label>JENIS KELAMIN</label><input type="text" value="Laki-laki"></div>
+                                <div class="form-group"><label>GOLONGAN DARAH</label><input type="text" value="O"></div>
+                                <div class="form-group"><label>AGAMA</label><input type="text" value="Islam"></div>
+                                <div class="form-group"><label>KEWARGANEGARAAN</label><input type="text" value="Indonesia"></div>
+                            </div>
+                            <div style="text-align: right; margin-top: 20px;"><button class="btn-orange">Simpan Perubahan</button></div>
+                        </div>
+                    </div>
+                    <div class="col-side-profile">
+                        <div class="card">
+                            <div class="card-header"><h3>🎓 Info Akademik</h3></div>
+                            <div class="info-group"><label>PROGRAM STUDI</label><p>Teknik Informatika</p></div>
+                            <div class="info-group"><label>FAKULTAS</label><p>Fakultas Ilmu Komputer</p></div>
+                            <div class="academic-row" style="display:flex; gap:15px;">
+                                <div class="info-group"><label>ANGKATAN</label><p>2025</p></div>
+                                <div class="info-group"><label>SEMESTER</label><p class="border-box-blue">2 (Aktif)</p></div>
+                            </div>
+                            <div class="info-group"><label>DOSEN PEMBIMBING</label><p>Dr. Budi Santoso, M.Kom</p></div>
+                            <div class="info-group"><label>STATUS MAHASISWA</label><div class="status-box-green">✓ Aktif</div></div>
+                            <div class="mini-stats-row">
+                                <div class="mini-stat-box box-blue"><small>IPK</small><h4>4.00</h4></div>
+                                <div class="mini-stat-box box-orange"><small>SKS</small><h4>40</h4></div>
+                                <div class="mini-stat-box box-green"><small>Sisa</small><h4>104</h4></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

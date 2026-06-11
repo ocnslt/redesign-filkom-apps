@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - FILKOM Apps</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="logo-section">
+                <div class="logo-f">F</div>
+                <div>
+                    <h2>FILKOM Apps</h2>
+                    <p>Portal Mahasiswa UB</p>
+                </div>
+            </div>
+            <div class="user-miniprofile">
+                <div class="avatar-circle">BL</div>
+                <div class="user-mini-info">
+                    <h3>Bahlil Lahadalia</h3>
+                    <p>255150700111001</p>
+                    <span class="tag-dept">Teknik Informatika</span>
+                    <p class="sem-text">Semester 2</p>
+                </div>
+            </div>
+            <nav class="menu-nav">
+                <span class="menu-group-title">MENU UTAMA</span>
+                <a href="dashboard.html" class="menu-item active"><i class="fa-solid fa-gauge"></i> Dashboard</a>
+                <a href="404.html" class="menu-item"><i class="fa-solid fa-graduation-cap"></i> Akademik</a>
+                <a href="404.html" class="menu-item"><i class="fa-solid fa-flask"></i> Penelitian</a>
+                <a href="404.html" class="menu-item"><i class="fa-solid fa-building"></i> Fasilitas</a>
+                <a href="konseling.html" class="menu-item"><i class="fa-solid fa-comments"></i> Konseling</a>
+                <a href="profil.html" class="menu-item"><i class="fa-solid fa-user"></i> Profil</a>
+                <span class="menu-group-title">LAINNYA</span>
+                <a href="404.html" class="menu-item"><i class="fa-solid fa-bell"></i> Pengumuman <span class="badge">3</span></a>
+            </nav>
+            <a href="404.html" class="btn-logout"><i class="fa-solid fa-arrow-right-from-bracket"></i> Keluar</a>
+        </aside>
+
+        <main class="main-content">
+            <header class="topbar">
+                <div class="breadcrumbs">BERANDA / <span class="active">Dashboard</span></div>
+                <div class="topbar-right">
+                    <div class="search-box"><i class="fa-solid fa-magnifying-glass"></i><input type="text" placeholder="Cari layanan..."></div>
+                    <div class="notif-bell"><i class="fa-solid fa-bell"></i><span class="bell-badge">2</span></div>
+                    <div class="profile-initial">BL</div>
+                </div>
+            </header>
+
+            <div id="page-wrapper">
+                <div class="welcome-banner">
+                    <div class="welcome-text">
+                        <p>SELAMAT DATANG KEMBALI</p>
+                        <h1>Bahlil Lahadalia 👋</h1>
+                        <p>Semester 2 • Teknik Informatika • Angkatan 2025</p>
+                        <button class="btn-orange">Lihat Jadwal Hari Ini &rarr;</button>
+                    </div>
+                </div>
+
+                <div class="dashboard-stats-grid">
+                    <div class="stat-card border-blue"><i class="fa-solid fa-book icon-blue"></i><div><p>Mata Kuliah Aktif</p><h3>2</h3><span class="sub-stat">&and; Semester 2</span></div></div>
+                    <div class="stat-card border-orange"><i class="fa-solid fa-file-pen icon-orange"></i><div><p>Tugas Pending</p><h3>4</h3><span class="sub-stat text-orange">2 deadline hari ini</span></div></div>
+                    <div class="stat-card border-green"><i class="fa-solid fa-square-check icon-green"></i><div><p>Rata-rata Presensi</p><h3>91%</h3><span class="sub-stat text-green">&and; Aman</span></div></div>
+                    <div class="stat-card border-gold"><i class="fa-solid fa-graduation-cap icon-gold"></i><div><p>Progres Skripsi</p><h3>0%</h3><span class="sub-stat">Belum tersedia</span></div></div>
+                </div>
+
+                <div class="dashboard-two-col">
+                    <div class="col-left">
+                        <div class="card">
+                            <div class="card-header"><h3>📅 Jadwal Kuliah Hari Ini</h3><button class="btn-text">Lihat Semua</button></div>
+                            <p class="date-sub">Senin, 1 Juni 2026</p>
+                            <div class="schedule-list">
+                                <div class="schedule-item border-blue"><div><h4>Pemrograman Lanjut</h4><p>08:00 - 10:00 • Ruang F2.4 • Dr. Budi Santoso</p><small>Presensi 85%</small></div><span class="status-tag tag-green">Selesai</span></div>
+                                <div class="schedule-item border-orange"><div><h4>Aljabar Linier</h4><p>10:00 - 12:00 • Ruang F3.6 • Prof. Siti Rahayu</p><small>Presensi 93%</small></div><span class="status-tag tag-orange">Berlangsung</span></div>
+                                <div class="schedule-item border-blue"><div><h4>Basis Data</h4><p>13:00 - 15:00 • Ruang F2.1 • Dr. Ahmad Hidayat</p><small>Presensi 78%</small></div><span class="status-tag tag-blue">Akan Datang</span></div>
+                            </div>
+                        </div>
+                        <div class="card" style="margin-top: 20px;">
+                            <div class="card-header"><h3><i class="fa-solid fa-chart-simple"></i> Nilai Semester Lalu</h3></div>
+                            <p class="date-sub">Semester 2 • IPS 4.00</p>
+                            <table class="data-table">
+                                <thead><tr><th>Mata Kuliah</th><th>SKS</th><th>Nilai</th><th>Grade</th><th>Bobot</th><th>Status</th></tr></thead>
+                                <tbody>
+                                    <tr><td>Kecerdasan Buatan</td><td>3</td><td>88</td><td class="text-green">A</td><td>4.0</td><td><span class="status-tag tag-green">Lulus</span></td></tr>
+                                    <tr><td>Sistem Operasi</td><td>3</td><td>90</td><td class="text-green">A</td><td>4.0</td><td><span class="status-tag tag-green">Lulus</span></td></tr>
+                                    <tr><td>Rekayasa Perangkat Lunak</td><td>3</td><td>87</td><td class="text-green">A</td><td>4.0</td><td><span class="status-tag tag-green">Lulus</span></td></tr>
+                                    <tr><td>Jaringan Komputer</td><td>2</td><td>85</td><td class="text-green">A</td><td>4.0</td><td><span class="status-tag tag-green">Lulus</span></td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-right">
+                        <div class="card">
+                            <div class="card-header"><h3>📢 Pengumuman Terbaru</h3></div>
+                            <div class="announcement-item"><h4>Pendaftaran Sidang Skripsi Gel. 2 - 2026 <span class="tag-new">Baru</span></h4><p>Dibuka hingga 20 Mei 2026 • Akademik</p></div>
+                            <div class="announcement-item"><h4>Jadwal UAS Semester Genap 2025/2026</h4><p>26 April 2026 • Akademik</p></div>
+                        </div>
+                        <div style="margin-top:20px; display:grid; grid-template-columns: 1fr 1fr; gap:15px;">
+                            <div class="card text-center">
+                                <h3>Progres Studi</h3><p>Target Lulus: <b>Agustus 2025</b></p>
+                                <div class="progress-circle-placeholder"><span>75%</span><small>40/144 SKS</small></div>
+                                <p class="text-green"><small>✓ On track</small></p>
+                            </div>
+                            <div class="card text-center">
+                                <h3>Layanan Cepat</h3>
+                                <div class="quick-services">
+                                    <div class="qs-item"><i class="fa-solid fa-file-invoice"></i><small>KRS</small></div>
+                                    <div class="qs-item"><i class="fa-solid fa-file-lines"></i><small>Transkip</small></div>
+                                    <div class="qs-item" onclick="location.href='konseling.html'"><i class="fa-solid fa-comments"></i><small>Konseling</small></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
