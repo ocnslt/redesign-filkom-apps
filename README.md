@@ -26,4 +26,4 @@ Berkas utama diletakkan pada direktori akar (root) untuk kebutuhan deployment Gi
 * `icons/` - Aset ikon pendukung.
 
 ## Pemrogram
-by: vina 
+by: vina dewi r.
