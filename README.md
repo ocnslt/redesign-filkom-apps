@@ -8,7 +8,7 @@ Hasil pengerjaan dapat diakses langsung melalui tautan berikut:
 ## Cakupan Halaman
 Proyek ini berfokus pada perbaikan tata letak untuk 3 halaman utama:
 1. **Dashboard Utama (`index.html` / `dashboard.html`)** - Pusat informasi akademik mahasiswa.
-2. **Layanan Konseling (`konseling.html`)** - Antarmuka untuk pengajuan bimbingan/konseling.
+2. **Layanan Konseling (`konseling.html`)** - Antarmuka untuk pengajuan konseling.
 3. **Profil Pengguna (`profil.html`)** - Halaman informasi data diri mahasiswa.
    
 *Catatan: Beberapa tombol atau konten pendukung sengaja dikosongkan karena proyek ini difokuskan pada visualisasi komponen utama di ketiga halaman tersebut.*
