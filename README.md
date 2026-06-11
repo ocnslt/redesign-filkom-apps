@@ -24,3 +24,6 @@ Berkas utama diletakkan pada direktori akar (root) untuk kebutuhan deployment Gi
 * `style.css` - Pengatur gaya visual.
 * `script.js` - Logika interaksi antarmuka.
 * `icons/` - Aset ikon pendukung.
+
+
+by: vina 
