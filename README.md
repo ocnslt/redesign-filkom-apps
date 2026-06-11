@@ -25,5 +25,5 @@ Berkas utama diletakkan pada direktori akar (root) untuk kebutuhan deployment Gi
 * `script.js` - Logika interaksi antarmuka.
 * `icons/` - Aset ikon pendukung.
 
-
+## Penyusun
 by: vina 
